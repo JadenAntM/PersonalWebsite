@@ -1,7 +1,14 @@
 @media screen and (max-width: 1920px){
     }
     #experience{
-        margin-bottom: 10rem;
+        margin-bottom: 5rem;
+    }
+    article {
+      display: flex;
+      width: 10rem;
+      justify-content: space-around;
+      gap: 0.5rem;
+      padding: 1rem;
     }
     .about-containers {
         flex-wrap: wrap;
@@ -18,7 +25,7 @@
         display: flex;
     }
     #experience{
-      margin-bottom: 10rem;
+      margin-bottom: 5rem;
     }
     .about-containers {
         flex-wrap: wrap;
