@@ -9,7 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: rgb(53, 53, 53);
+  background-color: #000015;
   color: aliceblue;
 }
 
@@ -48,7 +48,7 @@ nav {
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
   text-decoration-color: white;
 }
@@ -284,6 +284,9 @@ section {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* or space-between depending on desired spacing */
 }
 
 .about-details-container {
@@ -376,7 +379,8 @@ article .icon {
 /* PROJECTS SECTION */
 
 #projects {
-  position: relative;
+  min-height: 80vh; /* Minimum height to cover the full viewport height */
+  margin-top: -7rem;
 }
 
 .color-container {
@@ -386,6 +390,7 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
+  border-color: gray;
   width: 90%;
   height: 90%;
 }
@@ -400,6 +405,16 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+.details-container.color-container {
+  min-width: 300px; /* or whatever minimum width you want */
+  width: 100%;
+  margin: 10px; /* Adjust margin as necessary */
+}
+
+.details-container.color-container:hover {
+  transform: translateY(-5px);
+}
+
 /* CONTACT */
 
 #contact {
@@ -407,6 +422,7 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  margin-top: 10rem;
 }
 
 .contact-info-upper-container {
@@ -448,6 +464,7 @@ article .icon {
 footer {
   height: 26vh;
   margin: 0 1rem;
+  margin-top: 6rem;
 }
 
 footer p {

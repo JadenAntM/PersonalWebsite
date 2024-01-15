@@ -13,6 +13,10 @@
     .about-containers {
         flex-wrap: wrap;
     }
+    #projects {
+      min-height: 100vh;
+      padding: 4vh 10rem;
+    }
 
 
 
@@ -69,6 +73,12 @@
     }
     .about-containers{
         margin-top: 0;
+    }
+    .project {
+      width: calc(50% - 2rem); /* 2 projects per row */
+    }
+    #contact {
+      margin-top: -10rem;
     }
 }
 
@@ -130,5 +140,8 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .project {
+    width: 100%; /* 1 project per row */
   }
 }
