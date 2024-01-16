@@ -423,7 +423,7 @@ article .icon {
 }
 
 .details-container.color-container {
-  min-width: 300px; /* or whatever minimum width you want */
+  min-width: 250px; /* or whatever minimum width you want */
   width: 100%;
   margin: 10px; /* Adjust margin as necessary */
 }
