@@ -1,5 +1,32 @@
-@media screen and (max-width: 1920px){
-    }
+@media screen and (max-width: 2200px){
+  #experience{
+      margin-bottom: 5rem;
+  }
+  article {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+  .about-containers {
+      flex-wrap: wrap;
+  }
+  #projects {
+    min-height: 100vh;
+    padding: 2vh 10rem;
+    margin-top: 5rem;
+  }
+  #contact {
+    margin-top: 2rem;
+  }
+  footer {
+    margin-top: auto;
+  }
+
+}
+
+@media screen and (max-width: 1800px){
     #experience{
         margin-bottom: 5rem;
     }
@@ -17,10 +44,20 @@
       min-height: 100vh;
       padding: 4vh 10rem;
     }
+    #contact {
+      margin-top: 53rem;
+      margin-bottom: 1rem;
+    }
+
+}
+
 
 
 
 @media screen and (max-width: 1400px){
+  #desktop-nav{
+    display: none;
+}
     #profile{
         height: 83vh;
         margin-bottom: 6rem;
@@ -34,7 +71,41 @@
     .about-containers {
         flex-wrap: wrap;
     }
+    #projects {
+      min-height: 350vh;
+      padding: 4vh 10rem;
+    }
+    #contact {
+      margin-top: 50rem;
+    }
 }
+
+@media screen and (max-width: 1300px){
+  #desktop-nav{
+    display: none;
+}
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+    #experience{
+      margin-bottom: 5rem;
+    }
+    .about-containers {
+        flex-wrap: wrap;
+    }
+    #projects {
+      min-height: 350vh;
+      padding: 4vh 10rem;
+    }
+    #contact {
+      margin-top: 40rem;
+    }
+}
+
 
 
 
@@ -78,8 +149,51 @@
       width: calc(50% - 2rem); /* 2 projects per row */
     }
     #contact {
-      margin-top: -10rem;
+      margin-top: 60rem;
     }
+}
+
+@media screen and (max-width: 1000px){
+  #desktop-nav{
+      display: none;
+  }
+  #hamburger-nav{
+      display: flex;
+  }
+  #experience, .experience-details-container{
+      margin-top: 2rem;
+  }
+  .section-container{
+      display: block;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+      display: none;
+  }
+  section,
+  .section-container{
+      height: fit-content;
+  }
+  section{
+      margin: 0 5%;
+  }
+  .section__pic_container {
+      width:275px;
+      height:275px;
+      margin: 0 auto 2rem;
+  }
+  .about-containers{
+      margin-top: 0;
+  }
+  .project {
+    width: calc(50% - 2rem); /* 2 projects per row */
+  }
+  #contact {
+    margin-top: 30rem;
+  }
 }
 
 
@@ -143,5 +257,8 @@
   }
   .project {
     width: 100%; /* 1 project per row */
+  }
+  #contact {
+    margin-top: 1rem;
   }
 }

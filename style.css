@@ -9,13 +9,24 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #000015;
+  background-color: rgb(20, 20, 20);
   color: aliceblue;
+  display: flex;
+  flex-direction: column;
+    min-height: 100vh;
+  
+}
+html, body {
+  height: 100%; /* full height of the viewport */
+  margin: 0;
+  padding: 0;
 }
 
 html {
   scroll-behavior: smooth;
 }
+
+
 
 p {
   color: rgb(85, 85, 85);
@@ -39,6 +50,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  margin-top: 2rem;
 }
 
 .nav-links {
@@ -152,10 +164,10 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
+  margin-bottom: 10rem;
 }
 
 .section-container {
@@ -169,6 +181,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  margin-top: 10rem;
 }
 
 .section__pic-container {
@@ -189,19 +202,19 @@ section {
 
 .section__text__p1 {
   text-align: center;
-  color: aqua;
+  color: #00ABE4;
 }
 
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
-  color: aqua;
+  color: #00ABE4;
 }
 
 .section__text__p3 {
     font-size: 1rem;
     margin-bottom: 1.25rem;
-    color: aqua;
+    color: #00ABE4;
   }
 
 .title {
@@ -249,18 +262,18 @@ section {
   cursor: pointer;
 }
 
-.btn-color-1,
-.btn-color-2:hover {
-  background: rgb(53, 53, 53);
-  color: white;
+.btn-color-1 {
+  background: #00ABE4;
+  color: rgb(250, 250, 250);
 }
 
-.btn-color-1:hover {
+.btn-color-1:hover,
+.btn-color-2:hover {
   background: rgb(0, 0, 0);
 }
 
 .btn-color-2 {
-  background: none;
+  background: #00ABE4;
   color: rgb(250, 250, 250);
 }
 
@@ -286,7 +299,7 @@ section {
   margin-top: 2rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* or space-between depending on desired spacing */
+  justify-content: center; 
 }
 
 .about-details-container {
@@ -335,7 +348,7 @@ section {
   
 }
 .text-container p{
-  color:rgb(194, 240, 240);
+  color:#00ABE4;
 }
 /* EXPERIENCE SECTION */
 
@@ -404,6 +417,10 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
+.project-btn:hover {
+  color: white;
+  border-color: rgb(163, 163, 163);
+}
 
 .details-container.color-container {
   min-width: 300px; /* or whatever minimum width you want */
@@ -448,7 +465,7 @@ article .icon {
   font-size: larger;
 }
 .contact-info-container p a{
-  color: aqua;
+  color: #00ABE4;
 }
 
 .contact-icon {
@@ -462,9 +479,9 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
-  margin: 0 1rem;
-  margin-top: 6rem;
+  padding: 1rem 0; /* Keep the padding, but remove the fixed height */
+  margin: 0 6rem;
+  /* Remove margin-top if you want the footer to sit directly below the content */
 }
 
 footer p {
