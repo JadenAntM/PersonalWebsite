@@ -1,4 +1,4 @@
-# PersonnelWebsite
+# PersonalWebsite
 
 - Developed a personnel website using HTML, CSS and JavaScript
 - Adding to it as I learn
