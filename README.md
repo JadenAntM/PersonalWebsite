@@ -1,7 +1,10 @@
 # PersonalWebsite
 
-- Developed a personnel website using HTML, CSS and JavaScript
-- Adding to it as I learn
-- Feedback is welcomed 
+## Check Out My Personal Portfolio
 
-Inspiration from https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2
+## Features
+- About me
+- Experience
+- Projects
+- Contact
+
