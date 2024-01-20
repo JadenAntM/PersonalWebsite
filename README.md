@@ -1,7 +1,11 @@
 # PersonalWebsite
+### Link: https://jadenantm.github.io/PersonalWebsite/
 
-- Developed a personnel website using HTML, CSS and JavaScript
-- Adding to it as I learn
-- Feedback is welcomed 
+## Overview
+Welcome to my personal website and portfolio! This site showcases my skills, projects, and experiences in the field of web development. I have built this site using HTML, CSS, and JavaScript to provide an interactive and engaging experience for visitors
 
-Inspiration from https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2
+## Features
+- **Interactive Portfolio:** Explore a collection of my projects with detailed information and live demos
+- **Resume:** Download my resume to learn more about my education, skills, and work experience.
+- **Responsive Design:** The site is optimized for various devices, ensuring a seamless experience on desktops, tablets, and mobiles.
+
